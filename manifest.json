@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "eszett_replacer",
+  "version": "1.0",
+  "description": "Replaces every ß with ss on webpages.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
