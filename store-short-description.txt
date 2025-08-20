@@ -1,0 +1,1 @@
+Replace every ß with ss (and ẞ with SS) on webpages. Includes a per‑site toggle.
